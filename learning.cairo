@@ -5,7 +5,7 @@ mod Hellocommit {
 
 
     #[external]
-    fn Hello(from: ContractAddress, value: felt252) {}
+    fn wETH(from: ContractAddress, value: felt252) {}
 
 
     #[internal]
