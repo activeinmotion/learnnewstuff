@@ -4,7 +4,7 @@ mod Hellostranger {
     use starknet::ContractAddress;
 
 
-    #[event]
+    #[external]
     fn Hello(from: ContractAddress, value: felt252) {}
 
 
