@@ -11,7 +11,7 @@ mod Hellocommit {
     #[internal]
     fn Say_ETH(message: felt252) {
         let caller = get_caller_address();
-        Hello(caller, message);
+       boboo(caller, message);
     }
 
 }
